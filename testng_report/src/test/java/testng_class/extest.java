@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import Commons.utilis;
 
 public class extest extends  utilis {
-	@Test
+	@Test(priority = 1)
 public void test1_vlaidate_functionality()
 {
 	
@@ -14,7 +14,7 @@ public void test1_vlaidate_functionality()
 	test.pass("homepage launched");
 }
 	
-	@Test
+	@Test(priority = 2)
 public void test1_vlaidate_functionality1()
 {
 	
@@ -22,7 +22,7 @@ public void test1_vlaidate_functionality1()
 	test.info("url opened");
 	test.fail("url launched");
 }
-	@Test
+	@Test(priority = 3)
 public void test1_vlaidate_functionality12()
 {
 	

@@ -20,6 +20,7 @@ public class utilis extends Commons {
 	  @BeforeClass
 	  public void beforeclass(String url, String browser)
 	  {
+		log.info(url);
 		  Ibrowser(browser, url);
 		  log.info("brower launch process completed");
 		  
