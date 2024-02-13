@@ -55,6 +55,7 @@ public void cofigreport()
 		{
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
+			System.out.println(url);
 			log.info("chrome browser instansitated");
 		}
 		else if(NameOfBrowser.equalsIgnoreCase("edge"))
