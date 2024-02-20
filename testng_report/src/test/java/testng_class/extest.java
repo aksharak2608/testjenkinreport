@@ -25,7 +25,7 @@ public void test1_vlaidate_functionality1()
 	@Test(priority = 3)
 public void test1_vlaidate_functionality12()
 {
-	
+	//test
 	test=extent.createTest("click on the element url");
 	test.info("click on the element opened");
 	test.skip("url launched");
